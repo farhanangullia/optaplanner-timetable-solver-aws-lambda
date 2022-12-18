@@ -1,0 +1,12 @@
+service: opta
+
+provider:
+  name: aws
+  region: ${opt:region, env:AWS_REGION}
+  timeout: 900
+  memorySize: 2048
+  lambdaHashingVersion: 20201221
+
+functions:
+  time-table-solver:
+    image: ${opt:awsAccountId, env:AWS_ACCOUNT_ID}.dkr.ecr.${opt:region, env:AWS_REGION}.amazonaws.com/opta-time-table-solver-lambda:latest
