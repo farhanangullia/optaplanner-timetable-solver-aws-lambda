@@ -2,6 +2,8 @@
 
 > This project is a modified version of the source code for a timetable solver from OptaPlanner's quickstart: https://github.com/kiegroup/optaplanner-quickstarts
 
+You may find the blog post for this here: [Running a serverless Java constraint solver on AWS](https://medium.com/@farhanangullia/running-a-serverjava-constraint-solver-serverless-on-aws-c497a69a309c) 
+
 A sample serverless project for deploying a Java constraint solver by OptaPlanner as a container on AWS Lambda.
 
 ## Compile
